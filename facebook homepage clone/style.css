@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap');
+
+:root {
+    --primary-color: #047aed;
+    --green-color: #00d43f;
+}
+
+body {
+    background-color: #f7f7f7;
+    font-family: 'Comic Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Showcase */
+.showcase {
+    margin: 170px 300px;
+}
+
+.showcase-1 {
+    margin: ;
+    max-width: 450px;
+}
+
+.showcase-1 img {
+    width: 300px;
+}
+
+.showcase-1 h1 {
+    margin-left: 20px;
+}
+
+
+.showcase-2 .form {
+    display: flex;
+    flex-direction: column;
+}
+
+.showcase-2 a:hover {
+    text-decoration: underline 1px solid black;
+}
+
+.showcase-2 .form * {
+    min-width: 300px;
+}
+
+.showcase-2 .form a {
+    text-align: center;
+}
+
+.one {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.one:hover {
+    background-color: #0373fc;
+}
+
+.two {
+    color: #0089fa;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.two:hover {
+    text-decoration: underline 1px solid #0089fa;
+}
+
+.three {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.three:hover {
+    background-color: #00ba06;
+}
+
+.showcase-2 .form input {
+    height: 40px;
+    width: 100%;
+    border: 1.5px solid #a3a3a3;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #b0b0b0;
+}
+
+.showcase-2 .form input:focus {
+    outline: 2px solid blue;
+    border-radius: 2px;
+}
+
+/* Footer */
+.footer-whole {
+    background-color: #fff;
+}
+
+.footer {
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+}
+
+.footer-top a:first-child {
+    color: #111;
+}
+
+.footer a {
+    margin: 0 5px;
+    color: #0366fc;
+    font-size: 0.8rem;
+}
+
+.footer a:hover {
+    text-decoration: underline 1px solid #0366fc;
+}
+
+/* Utilities */
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn-green {
+    background-color: var(--green-color);
+    color: #fff;
+}
